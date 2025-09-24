@@ -6,7 +6,7 @@ export default async function Home() {
     <>
       <Page.Main className="flex flex-col items-center justify-start gap-4 mb-16">
         <UserInfo />
-        <p>Bienvenido a la página principal protegida. PIMBA!</p>
+        <p>Bienvenido</p>
       </Page.Main>
     </>
   );

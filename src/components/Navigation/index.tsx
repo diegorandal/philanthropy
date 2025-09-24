@@ -10,7 +10,7 @@ export const Navigation = () => {
   return (
     <Tabs value={value} onValueChange={setValue}>
       <TabItem value="donations" icon={<Donate />} label="Donations" />
-      <TabItem value="philanthropy" icon={<Peerlist />} label="Philanthropy" />
+      <TabItem value="philanthropy" icon={<Peerlist />} label="Philanthropy" className="font-bold text-lg" />
       <TabItem value="campaigns" icon={<Group />} label="Campaigns" />
     </Tabs>
   );
